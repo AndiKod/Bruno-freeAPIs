@@ -17,3 +17,7 @@ First things first, something to kick-off
 **[Dog API](https://dog.ceo/dog-api/)**
 
 - GET a random Dog picture on each call
+
+**[CatAAS](https://cataas.com/)**
+
+- Get a random cat picture or gif
