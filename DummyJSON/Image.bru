@@ -1,0 +1,19 @@
+meta {
+  name: Image
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{DummyJSON}}/image/400x200/c4a50d/161615?text=Hello+Bruno
+  body: none
+  auth: none
+}
+
+params:query {
+  text: Hello Bruno
+}
+
+docs {
+  https://dummyjson.com/docs/image#image-custom-text
+}

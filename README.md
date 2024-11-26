@@ -26,8 +26,9 @@ First things first, something to kick-off
 
 - [GitHub REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28): Examples without or with an API-Key from `.env`
 
-### Random or FakeData
+### Random & FakeData
 
 - [Dog API](https://dog.ceo/dog-api/): Random Dog image
 - [CatAAS](https://cataas.com/): Random Cat image
-- [JSONPlaceholder](https://jsonplaceholder.typicode.com/): Free fake and reliable API for testing and prototyping.
+- [JSONPlaceholder](https://jsonplaceholder.typicode.com/): Posts, Comments, Albums, Photos, Todos, Users
+- [DummyJSON](https://dummyjson.com/): Images, Auth, Products, Carts, Reciepes, Users, Posts, Comments, Todos, Quotes, Custom ...

@@ -1,0 +1,17 @@
+meta {
+  name: Recent Posts
+  type: http
+  seq: 9
+}
+
+get {
+  url: {{DummyJSON}}/posts?limit=3&sortBy=id&order=desc
+  body: none
+  auth: none
+}
+
+params:query {
+  limit: 3
+  sortBy: id
+  order: desc
+}
