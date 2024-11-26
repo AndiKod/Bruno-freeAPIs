@@ -24,7 +24,7 @@ First things first, something to kick-off
 
 - Get a random cat picture or gif
 
-**[GitHub](https://api.github.com/)**
+**[GitHub REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28)**
 
-- Get your User infos  (no Key needed)
-- Get all your repos   (key in .env)
+- Get your User infos (no Key needed)
+- Get all your repos (key in .env)
