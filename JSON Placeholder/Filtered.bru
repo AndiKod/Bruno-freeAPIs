@@ -1,0 +1,21 @@
+meta {
+  name: Filtered
+  type: http
+  seq: 7
+}
+
+get {
+  url: https://jsonplaceholder.typicode.com/posts?userId=2
+  body: none
+  auth: none
+}
+
+params:query {
+  userId: 2
+}
+
+docs {
+  #Filtering resources
+  
+  Basic filtering is supported through query parameters.
+}

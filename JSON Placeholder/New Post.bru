@@ -1,0 +1,23 @@
+meta {
+  name: New Post
+  type: http
+  seq: 3
+}
+
+post {
+  url: https://jsonplaceholder.typicode.com/posts
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json; charset=UTF-8
+}
+
+body:json {
+  {
+    "title": "This is the title",
+    "body": "The article body",
+    "userId": 1
+  }
+}
