@@ -1,0 +1,15 @@
+meta {
+  name: All Repos
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://api.github.com/users/AndiKod/repos
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{process.env.GH-KEY}}
+}
