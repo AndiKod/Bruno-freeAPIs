@@ -32,3 +32,7 @@ First things first, something to kick-off
 - [CatAAS](https://cataas.com/): Random Cat image
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/): Posts, Comments, Albums, Photos, Todos, Users
 - [DummyJSON](https://dummyjson.com/): Images, Auth, Products, Carts, Reciepes, Users, Posts, Comments, Todos, Quotes, Custom ...
+
+### Real Data
+
+- [WeatherAPI.com](https://www.weatherapi.com/docs/): Weather of the day, forecast & more. Nice free plan.

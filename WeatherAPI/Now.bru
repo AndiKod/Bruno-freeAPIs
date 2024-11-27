@@ -1,0 +1,17 @@
+meta {
+  name: Now
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://api.weatherapi.com/v1/current.json?key={{process.env.WEATHER-KEY}}&q=Nîmes&aqi=no
+  body: none
+  auth: none
+}
+
+params:query {
+  key: {{process.env.WEATHER-KEY}}
+  q: Nîmes
+  aqi: no
+}

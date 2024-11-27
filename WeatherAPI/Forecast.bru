@@ -1,0 +1,19 @@
+meta {
+  name: Forecast
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://api.weatherapi.com/v1/forecast.json?key={{process.env.WEATHER-KEY}}&q=Nîmes&days=3&aqi=no&alerts=no
+  body: none
+  auth: none
+}
+
+params:query {
+  key: {{process.env.WEATHER-KEY}}
+  q: Nîmes
+  days: 3
+  aqi: no
+  alerts: no
+}
